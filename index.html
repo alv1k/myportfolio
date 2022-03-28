@@ -1,98 +1,89 @@
-
 <!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <style type="text/css">
-    .about{
-
-    }
-    .about: hover{
-      
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <title>Document</title>
 </head>
 <body>
-    <div class="col" style="height:900px;">
-      <div class="col mt-2" style="height:100px;">
-        <h1>Алена Алексеева</h1>
-        <p>Это мое портфолио, добро пожаловать</p>
-      </div>
-      <div class="col row bg-primary mt-2 mx-5" style="height:500px;">
-        <p>Обо мне:</p>
-        <div class="card" style="width: 18rem;">
-          <img src="avatar.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
+    <div class="d-flex header">
+        <div class="col-2 d-flex height">
+            <img class="col-1 mx-4" src="burger.svg"/>
+            <img class="col-4" src="logo.svg"/>
         </div>
-        <div class="col-8 ms-3 bg-secondary" style="height:180px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-      </div>
-      <div class="col bg-info mt-2" >
-        <p>мои работы</p>
-        <div class="row bg-secondary mt-2">
-          <div class="col text-center">
-            <img src="work1.jpg" class="w-50">
-          </div>
-          <div class="col">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+        <div class="col-8 d-flex height">
+            <div class="ms-5 col-6 height d-flex p-2">
+                <div class="input-group">
+                    <input type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)" placeholder="Введите запрос">
+                    <span class="input-group-text">
+                        <img src="keyboard.png" style="width: 19px;">
+                    </span>
+                    <span class="input-group-text">
+                        <img src="search.svg" style="width: 19px;">
+                    </span>
+                </div>
+            </div>
+            <div class="mt-2 micro p-1">
+                <img src="micro.svg" style="width: 30px;">  
+            </div>
         </div>
-        <div class="row bg-secondary mt-2">
-          <div class="col text-center">
-            <img src="work2.jpg" class="w-50">
-          </div>
-          <div class="col">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+        <div class="col-2 d-flex height align-items-center">
+            
+            <img src="video.svg" style="width: 30px;" class="mx-3">  
+            <img src="apps.svg" style="width: 30px;" class="mx-3">  
+            <img src="notificatin.svg" style="width: 30px;" class="mx-3">  
+            <img src="profile.jpg" style="width: 30px; height: 30px;" class="mx-3 rounded-circle">  
         </div>
-        <div class="row bg-secondary mt-2">
-          <div class="col text-center">
-            <img src="work3.jpg" class="w-50">
-          </div>
-          <div class="col">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-        </div>
-      </div>
-      <div class="col mt-2 mx-5" style="height:200px;">
-        <p>Мои навыки</p>
-        <p>Дизайн</p>
-        <p>Фронтенд</p>
-        <p>софт скиллз</p>
-      </div>
-      <div class="col mt-2 mx-5" style="height:200px;">
-        <p>Мои контакты</p>
-        <div class="row">
-          <div class="col">
-            <img src="discord.png" class="w-25">
-          </div>
-          <div class="col">
-            <img src="github.png" class="w-25">
-          </div>
-          <div class="col">
-            <img src="discord.png" class="w-25">
-          </div>
-        </div>
-      </div>
-    </div>
 
+
+        <div class="mt-1 mb-2 ms-3 me-4 mx-5 my-1">
+
+        </div>
+
+        <div class="col mx-auto">
+
+        </div>
+
+    </div>
+    <div class=" col" style="height:900px">
+        <div class="col-11 mx-auto d-flex" style="height:900px;">
+            <div class=" col-8 border" style="height:900px;">
+                <iframe width="90%" height="60%" src="https://www.youtube.com/embed/u7w5Y0XhsQc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="m-4"></iframe>
+                <p class="fs-2 fw-bold ms-5">Игра на движке Unity 2021.2.14f1. Дата 20 мар. 2022 г.</p>
+                <p class="fs-3  ms-4">Играем за грабителя, цель - своровать 5 питомцев. ссылка на <a href="https://github.com/alv1k/robberOnFerm">код</a> </p>
+                <p class="fs-3  ms-4">Закрепили новые темы - столкновение, теги, прыжки с помощью Rigidbody</p>
+            </div>
+            <div class="col-4" style="height:900px;">
+                <div class=" mt-2 row" style="height:200px;">
+                    <iframe width="50%" height="100%" src="https://www.youtube.com/embed/Zcd6iEEAzbE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="col-6"></iframe>
+                    <div class=" col-6">
+                        <p class="fw-bold">Игра на движке Unity 2021.2.14f1. Дата 18 мар. 2022 г.</p>
+                        <p class="">Цель - собрать 3 примогема. ссылка на <a href="https://github.com/alv1k/ShogunRaidenGame">код</a> </p>
+                        <p class="">Изучили темы - столкновение, теги, прыжки с помощью Rigidbody</p>
+                    </div>
+                </div>
+                <div class="mt-4 row " style="height:180px;">
+                    <iframe width="50%" height="100%" src="https://www.youtube.com/embed/Tk2QYqHmMSk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="col-6"></iframe>
+                    
+                    <div class=" col-6">
+                        <p class="fw-bold">Игра на движке Unity 2021.2.14f1. Дата 18 мар. 2022 г.</p>
+                        <p class="">Цель - собрать всех животных. ссылка на <a href="https://github.com/alv1k/AnimalFallDown">код</a> </p>
+                        <p class="">животные прыгают если приземляются на синие блоки, и исчезают если попали на красные, ведется счет</p>
+                    </div>
+                </div>
+                <div class="mt-4 row" style="height:200px;">
+                    <iframe width="50%" height="100%" src="https://www.youtube.com/embed/LiEZv6cZRjk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="col-6"></iframe>
+                    <div class=" col-6">
+                        <p class="fw-bold">Игра на движке Unity 2021.2.14f1. Дата 18 мар. 2022 г.</p>
+                        <p class="">Цель - собрать все что в списке. ссылка на <a href="https://github.com/alv1k/hiddenObjectUnity">код</a> </p>
+                        <p class="">локация сделана по моей задумке, из готовых ассетов из ассет стор</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
